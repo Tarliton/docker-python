@@ -1,0 +1,9 @@
+# Temporary files
+.tmp
+
+# docker-template / docker-template-wrapper files
+Gemfile
+Gemfile.lock
+.bundle/
+vendor/
+**/cache/
