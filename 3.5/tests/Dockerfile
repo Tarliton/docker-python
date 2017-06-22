@@ -5,4 +5,4 @@ RUN apk update --no-cache && \
     apk add --no-cache build-base
 
 RUN pip install --upgrade pip
-RUN pip install coverage flake8 pytest tox
+RUN pip install coverage flake8 pytest tox pytest-cov
